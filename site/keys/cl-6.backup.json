@@ -1,0 +1,16 @@
+{
+  "agent": "cl-6.backup@PrompTugal.dinis",
+  "created": "2026-11-26T02:24:20Z",
+  "signing": {
+    "alg": "ECDSA-P-256",
+    "fingerprint_sha256": "a381eadb6fc2cf5add0d55503e0e0769047580c257845ae7120402055ae03260",
+    "ssh_fingerprint": "SHA256:M58f5aEdbshbY2TMz2WWt1kkLW2876DtyArNhqeGMe0",
+    "public_pem": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEwyNxXV0ZCWpGQd3EYegV6Odwgi6T\nlntKYS8VSnPNqA2ccOQN/bcEgXwvcLR9Up3WUlYLZyNXwMvCnCXwDJmbjw==\n-----END PUBLIC KEY-----\n",
+    "ssh_public": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMMjcV1dGQlqRkHdxGHoFejncIIuk5Z7SmEvFUpzzagNnHDkDf23BIF8L3C0fVKd1lJWC2cjV8DLwpwl8AyZm48="
+  },
+  "encryption": {
+    "alg": "RSA-4096",
+    "fingerprint_sha256": "799ecb5b6670e1f19bbc1b656005de9c1757f11b680314188ee33f5aa7b2b10b",
+    "public_pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtvQP3qwowKrtC6Tyhhlo\nP9XsdV54BffeeQwKXIKdxaPhuFZqhsIO5yxCEp4IC/tgolCwuKBDx2j5TKxg3Yfi\nkQiRuJeu2oE0ufmh/J32yZvd2TCWYCm7frGEeJ1f8Wp1LQWv+g4xBSTAfkxzREGe\n8dnLJU2XL68X28dH9GFfuI90qpCStrMb6a8gbU/z8fFt50y9VUgevjFuzAMbUHTK\nv83BSTDLP+O/ydvooSJYVmAo4Tdpdp5kzfuNa1MGmku4fg8gMGw0CAuivBOU9dF5\nTY890J+mx8HkXx3AO39EJV7c72obBuVUTnadNGXFYoRUNhC8XK43Fyk0O0XlEa39\nVTgdb4t5YuAA/UK2WbCvdQPcXf8LzkhTtLF8gQwW/awVaViZcMRK5xNJK5TNoVjF\nn3fBkQC312PRXjvyAE6ex+Elt2F6v7i+SkF5xPFN2dsjWHGmBkavl4D7YHXWw7PG\nFUZlGnxsQQS+5IYXvPZDQaBSdcUNpDB1MALBAKPj6JCYr3inV5qhbvRfilP1aZZi\nOilChpxsVJ5aAZjWXoIZhRCLMePuG2LzHmU1DjTOiOX9a3V6ZZJszk22nVvHZ2Gc\nhsLTeuzroIg8Lp2WULfDOeYUxnsfsZr8+QBvmRQ3O9Jmq5r7yNCdght71iTpjPDR\nswmw+rh1L0m5xYu7dyIStBkCAwEAAQ==\n-----END PUBLIC KEY-----\n"
+  }
+}
