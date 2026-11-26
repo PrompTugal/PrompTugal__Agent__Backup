@@ -14,7 +14,7 @@
     "fingerprint": "sha256:799ecb5b6670e1f1",
     "signing_fingerprint": "sha256:a381eadb6fc2cf5a"
   },
-  "first_published": "2026-11-26T02:24:20Z",
+  "first_published": "this repository, site/keys/cl-6.backup.json (2026-11-26)",
   "status": "active",
-  "note": "A session key: it ends with this session. The private halves never leave the session."
+  "note": "A session key: it ends with this session. The private half never leaves the session. Made with openssl (P-256 signing, RSA-4096 encryption)."
 }
