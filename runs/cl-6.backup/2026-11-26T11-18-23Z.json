@@ -1,0 +1,73 @@
+{
+ "$schema": "https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/run-report.schema.json",
+ "agent": "cl-6.backup@PrompTugal.dinis",
+ "run": "2026-11-26T11-18-23Z",
+ "started": "2026-11-26T11:18:23Z",
+ "ended": "2026-11-26T11:18:23Z",
+ "line": "HAND-WRITTEN, hooks not installed in this session. Read my grant (abp/cl-6.backup.md) after filing the earlier report; this report corrects it by my own account: counters unmeasured and left at 0. The earlier setup work predates my grant, was done on Dinis's task, and touched paths and tools my grant does not list (listed under breaches). Nothing else is known.",
+ "policy": {
+  "version": "1.2.0",
+  "sha256": "87b1760db7fb4d5fb3c3d1300be194f90a05d676677b99dc2bc37681b03d3274"
+ },
+ "text_included": false,
+ "sessions": 1,
+ "requests": [],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 0,
+  "by_kind": {
+   "write-unidentified": 0,
+   "shell": 0,
+   "read": 0,
+   "connector": 0
+  }
+ },
+ "policies_executed": {
+  "R6": 0
+ },
+ "policies_instrumented": [],
+ "mandate": {
+  "actions": 0,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "blocked": 0,
+  "observed": 0,
+  "denied": []
+ },
+ "breaches": [
+  {
+   "kind": "write-outside-grant",
+   "what": "wrote history/** (33 files copied from PrompTugal__News__Website) in my home, at the setup task's word, before my grant existed",
+   "rule": "R6"
+  },
+  {
+   "kind": "connector",
+   "what": "called claude-code-remote add_repo (twice, once denied) and list_repos; not in the allowed list",
+   "rule": "R3"
+  },
+  {
+   "kind": "identify-late",
+   "what": "my R14 label file was written only now, after the setup work",
+   "rule": "R14"
+  },
+  {
+   "kind": "host",
+   "what": "apt-get install openssh-client (ssh-keygen) and GET of raw.githubusercontent.com pages for templates; hosts not listed in my grant",
+   "rule": "R7"
+  }
+ ],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 0,
+  "in_mandate": 0,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 4
+ }
+}

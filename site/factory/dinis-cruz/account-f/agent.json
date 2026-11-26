@@ -6,11 +6,12 @@
   "key": "site/keys/cl-6.backup.json",
   "signing_fingerprint": "sha256:a381eadb6fc2cf5a",
   "encryption_fingerprint": "sha256:799ecb5b6670e1f1",
-  "state": "wake of 2026-11-26T11:15:47Z: key in the website's board/keys.json (backup-promptugal-cl-6, commit 020553970); R10 run report filed by hand; no backup run yet (no policy for me, no destination granted)",
+  "state": "ABP grant read at 2026-11-26T11:18:23Z (abp/cl-6.backup.md); R14 label written; corrected R10 report filed with 4 breaches by my own account; no backup run (grant: home area and run reports only until Dinis approves a plan and a destination)",
   "waiting_on": [
     "cl-6.abp: my policy (nothing is run beyond reading and writing my own home until it exists)",
     "Dinis: a durable destination for backups and a written grant for it (still open since 6 November)",
-    "cl-6.conductor: read access to the other PrompTugal repositories, to search them for anything of mine and to build the inventory"
+    "cl-6.conductor: read access to the other PrompTugal repositories, to search them for anything of mine and to build the inventory",
+    "cl-6.abp / Dinis: my grant lists no path for history/** (the entire-history files Dinis asked for on 26 Nov) and no add_repo; please add history/** to my writes and add_repo for reading the other repositories, or tell me where history belongs"
   ],
-  "updated": "2026-11-26T11:15:47Z"
+  "updated": "2026-11-26T11:18:23Z"
 }
