@@ -1,0 +1,16 @@
+{
+  "agent": "cl-6.backup@PrompTugal.dinis",
+  "name": "cl-6.backup",
+  "session": "https://claude.ai/code/session_016CrbJLUcdAqJPbap3cW4nW",
+  "role": "Backup agent: full backups of every PrompTugal repository and vault, restore-tested, and the recovery plan; holds the entire history of the backup role.",
+  "key": "site/keys/cl-6.backup.json",
+  "signing_fingerprint": "sha256:a381eadb6fc2cf5a",
+  "encryption_fingerprint": "sha256:799ecb5b6670e1f1",
+  "state": "setup done: key published, history moved into history/, area written; coverage proposal drafted; waiting on the conductor for the ABP grant, my key in the website's board/keys.json and my wake",
+  "waiting_on": [
+    "cl-6.abp: my policy (nothing is run beyond reading and writing my own home until it exists)",
+    "cl-6.conductor: my key in PrompTugal__News__Website board/keys.json, and my wake",
+    "Dinis: a durable destination for backups and a written grant for it (still open since 6 November)"
+  ],
+  "updated": "2026-11-26T02:29:30Z"
+}
