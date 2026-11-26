@@ -6,12 +6,11 @@
   "key": "site/keys/cl-6.backup.json",
   "signing_fingerprint": "sha256:a381eadb6fc2cf5a",
   "encryption_fingerprint": "sha256:799ecb5b6670e1f1",
-  "state": "setup done and area current as of 2026-11-26T02:36:47Z: key published, history moved, coverage proposal drafted; no backup run yet (no ABP policy for me, no destination)",
+  "state": "wake of 2026-11-26T11:15:47Z: key in the website's board/keys.json (backup-promptugal-cl-6, commit 020553970); R10 run report filed by hand; no backup run yet (no policy for me, no destination granted)",
   "waiting_on": [
     "cl-6.abp: my policy (nothing is run beyond reading and writing my own home until it exists)",
-    "cl-6.conductor: my key in PrompTugal__News__Website board/keys.json, and my wake",
     "Dinis: a durable destination for backups and a written grant for it (still open since 6 November)",
     "cl-6.conductor: read access to the other PrompTugal repositories, to search them for anything of mine and to build the inventory"
   ],
-  "updated": "2026-11-26T02:36:47Z"
+  "updated": "2026-11-26T11:15:47Z"
 }
