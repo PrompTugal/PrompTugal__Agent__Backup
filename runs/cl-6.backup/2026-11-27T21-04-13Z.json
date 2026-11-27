@@ -1,0 +1,52 @@
+{
+ "$schema": "https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/run-report.schema.json",
+ "agent": "cl-6.backup@PrompTugal.dinis",
+ "run": "2026-11-27T21-04-13Z",
+ "started": "2026-11-27T21:04:13Z",
+ "ended": "2026-11-27T21:04:13Z",
+ "line": "HAND-WRITTEN, hooks not installed in this session. Wake of 27 Nov evening: R14 label written first; pulled home; read my grant (policy v1.7.13): it now lists my repositories (PrompTugal__Agent__Backup and PrompTugal__News__Website) but is still home area and run reports only; no board/HOLD.md (404); no backup run, no destination granted. Hosts read from, by my own account: github.com (git pull) and raw.githubusercontent.com (GET of my grant and board/HOLD.md). Counters unmeasured, left at 0. No breaches known by my own account this run.",
+ "policy": {
+  "version": "1.7.13",
+  "sha256": "d6fcc6b293106bc8"
+ },
+ "text_included": false,
+ "sessions": 1,
+ "requests": [],
+ "session_events": [],
+ "compactions": {
+  "count": 0,
+  "re_anchored": 0
+ },
+ "tool_calls": {
+  "total": 0,
+  "by_kind": {
+   "write-unidentified": 0,
+   "shell": 0,
+   "read": 0,
+   "connector": 0
+  }
+ },
+ "policies_executed": {
+  "R6": 0
+ },
+ "policies_instrumented": [],
+ "mandate": {
+  "actions": 0,
+  "commits": []
+ },
+ "reach": {
+  "attempts": 0,
+  "blocked": 0,
+  "observed": 0,
+  "denied": []
+ },
+ "breaches": [],
+ "counts": {
+  "requests": 0,
+  "tool_calls": 0,
+  "in_mandate": 0,
+  "out_of_mandate": 0,
+  "attempts": 0,
+  "breaches": 0
+ }
+}
